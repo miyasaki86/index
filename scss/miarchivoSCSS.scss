@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c37c0c;
+    text-transform: capitalize;
+    text-align: center;
+    margin: auto;
+    background-image: url("https://www.queenonline.com/global/assets/modules/site/images/band/queen_bio3.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: header;
+    max-width: 1200px;
+  }
+  //operaciones//
+  $color: #c37c0c;
+  //bloque//
+
+  .header_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color  #c37c0c;
+    text-transform: capitalize;
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: header;
+    max-width: 1200px;
+    font-size: 100px;
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .section_p{
+    color: rgb(67, 56, 27);
+    background-color: rgb(168, 154, 98);
+  }
+   h2 {
+    font-family: "Arial";
+    color: chartreuse;
+  }
+  aside{color: burlywood;
+
+  }
+  .aside_h2{
+    font-family: "Arial";
+    color: chartreuse;
+  }
+  footer{
+    background-color: #c37c0c;
+    color: #0a0c14;
+    padding: 15px;
+  }
+  .footer_p{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  table {
+    background-color: rgb(241, 128, 36);
+    width: 1500px;
+    border: 15px solid rgb(74, 235, 243);
+    padding: 50px;
+    margin: auto;
+    max-width: 2500px;
+    background-image: url();
+    grid-area: table;
+    height: auto;
+  }
+  .table_tr{
+    grid: 200px;
+    grid-column: initial;
+    grid-area: table_tr;
+    max-width: 1600px;
+  }
+  .table_th{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .table_td{
+    color: rgb(43, 0, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .header_h1{
+    color: #050152;
+    font-family: Impact, ;
+    text-align: center;
+  }
+  //termina el bloque//
+  .header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c37c0c;
+    text-transform: capitalize;
+    text-align: center;
+    margin: auto;
+    background-image: url("https://www.tonica.la/__export/1593623437489/sites/debate/img/2020/07/01/queen-roger_taylor-freddie_mercury.jpg_1902800913.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: header;
+    max-width: 1200px;
+    
+  }
+  .header1{
+  background-image: url("https://www.queenonline.com/global/uploads/1970.jpg");}
+  
+ 
+  @mixin pinto($color, $alineacion) {
+    color:$color;
+    text-align: $alineacion;
+    
+  }
+ 
+  
+  .pintoTres {
+    @include pinto(rgb(13, 0, 255), center);
+    font-size: xx-large;
+    font-weight: 500;
+    
+  }
+  .pintoCuatro {
+    @include pinto(rgb(2, 2, 253), center);
+    text-transform: lowercase;
+  }
+  .pintoCinco {
+    @include pinto(rgb(50, 176, 176), center);
+    
+  }
+  $colorbotones: (
+    primario: #0077b6,
+    secundario: #495057,
+  );
+  @each $nombre, $color in $colorbotones {
+    .boton-#{$nombre} {
+      background-color: $color;
+      border-color: $color;
+    }
+    
+  }
+  .parrafoUno {
+    color: rgb(194, 250, 10);
+    font-family: cursive;
+  }
+  .discoCero {
+    color: rgb(215, 71, 19);
+    font-family: "Times New Roman", Times, serif;
+  }
+ 
+  
+ 
+  
+  
+  .parrafoDos {
+    color: rgb(53, 35, 248);
+    text-transform: initial;
+    font-weight: normal;
+    font-size: x-large;
+  }
+  
+ 
+  .negrita {
+    font-weight: bold;
+  }
+
+  .fondoFuerte2 {
+    background-color: rgb(5, 89, 85);
+  }
+  .navegacion {
+    display: flex;
+    margin: 2em;
+    color: #0a0c14;
+    border: rgb(4, 91, 62);
+  }
+  /* menu de navegacion. */
+  .navColor {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c37c0c;
+    width: 98%;
+    margin: auto;
+    border: 10px solid #c37c0c;
+    height: 50px;
+    text-decoration: aliceblue;
+    grid-area: navColor;
+    max-width: 1600px;
+  }
+  .menu2{
+    grid-area: menu2;
+    max-width: 1600px;
+  }
+  .navColor a {
+    color: #0a0c14;
+    text-decoration: none;
+  }
+  .navColor a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .navegacion ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .navegacion ul li {
+    margin: 10px;
+    max-width: 1600px;
+    grid-area: navegacion ul li;
+  }
+  
+  .contenedor {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.171);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #0a0c14;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+    overflow-x: hidden;
+    grid-area: 
+    max-width 1600px;
+  }
+  .imagen{width: 1550px;
+  height: 850px;}
+  
+ 
+  
+  
+  
+  .punto1 {
+    color: red;
+  }
+  .parrafo3 {
+    background-color: cornsilk;
+    width: 800px;
+    border: 50px solid green;
+    padding: 50px;
+    margin: auto;
+    max-width: 1600px;
+    grid-area: parrafo3;
+  }
+  .ul {
+    background-color: rgb(234, 207, 207);
+    width: 800px;
+    border: 15px solid rgb(54, 25, 238);
+    padding: 50px;
+    margin: auto;
+    max-width: 1600px;
+    grid-area: ul;
+  }
+ 
+  span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(77, 197, 99);
+    background-color: rgb(62, 153, 157);
+    max-width: 1600px;
+    margin: auto;
+    grid-area: span
+  }
+  .geeks1 {
+    height: 350px;
+    width: 750px;
+    background: rgb(153, 163, 238);
+    display: block;
+  }
+  /* menu de tienda */
+  .menu li a:hover {
+    color: #fff;
+    transition: all 0.3s;
+  }
+  .submenu {
+    position: absolute;
+    background: rgba(70, 238, 137, 0.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.2s;
+  }
+  .submenu li a {
+    display: block;
+    padding: 25px;
+    color: rgb(180, 245, 3);
+    font-family: "opens sans";
+    text-decoration: none;
+  }
+  .menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+  }
+ 
+  .padreUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .padreFormulario1 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    color: burlywood;
+    border: 1px solid green;
+    text-decoration: white;
+    background-color: black;
+    font-size: medium;
+  }
+  .padreFormulario{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    border: 10px solid white;
+    background-color: greenyellow;
+  }
+  .container_form{
+    width: 500px;
+  }
+  .divUno {
+    width: 250px;
+    height: 200px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 1em;
+  }
+  .gridDos {
+    display: grid;
+    grid-template-columns: 150%;
+    gap: 2em;
+  }
+
+  
+  @media only screen and (max-width: 1200px)
+   {
+    .navegacion {
+      display: grid;
+      grid-column: auto;
+      grid-template-areas:
+        "header"
+        "span a"
+        "table"
+        "ul"
+        "parrafo3"
+        "navColor"
+        "navegacion"
+        "menu2"
+        "tr";
+    }
+  }
+  @media only screen and (max-width: 1000px)
+  {
+    .navegacion{
+      display: grid;
+      grid-column: auto;
+      grid-template-areas: 
+      "header"
+      "span a"
+      "table"
+      "ul"
+      "parrafo3"
+      "navColor"
+      "navegacion"
+      "menu2"
+      "tr";
+    }
+  }
+  @media only screen and(max-width: 700px){
+    .navegacion{
+      display: grid;
+      grid-column: auto;
+      grid-template-areas:
+       "header"
+      "span a"
+      "table"
+      "ul"
+      "parrafo3"
+      "navColor"
+      "navegacion"
+      "menu2"
+      "tr";
+    }
+  }
+    
+  
+  
+  .gradiante1{
+    width: 1500px;
+    height: 100px;
+    transform: translate(50px,25px);
+    background-image: linear-gradient(55deg,#ce7d35 );
+           
+  }
+    
+  a:visited{
+    color: aliceblue;
+  }
+  a:visited p{
+  color: blue;
+  }
+  .piuno{
+    transform: translate(10px, 20px);
+  }
+  .p1 {
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: initial;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .forma{
+    transform: scaleZ(25px, 25px);
+  }
+  @mixin img($alto, $ancho){
+    width: $ancho ;
+  height: $alto ;}
+  .img1 {
+    @include img (550px, 750px);
+  }
+
+  .imagen2{
+    @include img (1800px, 1800px);
+   
+  }
+  .imagen3{
+    @include img (1650px, 1800px);
+    
+  }
+  .boton1{
+    margin-bottom: 100px;
+    color: aliceblue;
+  }
+  .P2{
+    color: burlywood;
+  }
+  .fondo_formulario{
+    background-image: url("https://www.queenonline.com/global/assets/modules/site/images/band/queen_bio2.jpg");
+  }
+  .fondo_historia{
+    background-image: url("https://www.queenonline.com/global/assets/modules/site/images/gallery/1973_002.jpg");
+  }
