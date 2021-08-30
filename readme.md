@@ -8,7 +8,7 @@ Tiene secciones de:
        Noticias
        Tienda
        Formulario
-
+Se utilizaron tecnologias como visual studio coder, boostrap, balsamiq, github.
 Se utilizaron lenguaje html y css
 Espero que les guste, fue un gran proyecto para mi. El primero en hacer. 
 Nos veremos pronto con otros proyectos por subir.
