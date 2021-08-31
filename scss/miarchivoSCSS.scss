@@ -139,7 +139,7 @@
   .pintoCuatro {
     @include pinto(rgb(2, 2, 253), center);
     text-transform: lowercase;
-    font-size: 50px
+    font-size: 150px
   }
   .pintoCinco {
     @include pinto(rgb(50, 176, 176), center);
