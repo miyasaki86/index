@@ -131,13 +131,13 @@
  
   
   .pintoTres {
-    @include pinto(rgb(13, 0, 255), center);
+    @include pinto(#c37c0c, center);
     font-size: xx-large;
     font-weight: 500;
     
   }
   .pintoCuatro {
-    @include pinto(rgb(2, 2, 253), center);
+    @include pinto(#c37c0c, center);
     text-transform: lowercase;
     font-size: 150px
   }
