@@ -125,7 +125,8 @@ table {
 .pintoCuatro {
   color: #0202fd;
   text-align: center;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  font-size: 150px; }
 
 .pintoCinco {
   color: #32b0b0;
@@ -221,6 +222,10 @@ body {
 .imagen {
   width: 1550px;
   height: 850px; }
+
+.imagencarrusel {
+  width: 0.5vh;
+  height: 0.9vh; }
 
 .punto1 {
   color: red; }
@@ -395,3 +400,7 @@ a:visited p {
 
 .fondo_historia {
   background-image: url("https://www.queenonline.com/global/assets/modules/site/images/gallery/1973_002.jpg"); }
+
+.button {
+  position: relative;
+  left: 1000px; }
