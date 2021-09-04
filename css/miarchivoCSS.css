@@ -84,11 +84,11 @@ table {
   max-width: 1600px; }
 
 .table_th {
-  color: darkcyan;
+  color: #ad8823;
   font-family: Arial, Helvetica, sans-serif; }
 
 .table_td {
-  color: #2b00ff;
+  color: #0d0d0e;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .header_h1 {
@@ -123,7 +123,7 @@ table {
   font-weight: 500; }
 
 .pintoCuatro {
-  color: #c37c0c;
+  color: #c37c0d;
   text-align: center;
   text-transform: lowercase;
   font-size: 150px; }
@@ -148,8 +148,11 @@ table {
   color: #d74713;
   font-family: "Times New Roman", Times, serif; }
 
+.color1 {
+  color: brown; }
+
 .parrafoDos {
-  color: #3523f8;
+  color: #101011;
   text-transform: initial;
   font-weight: normal;
   font-size: x-large; }
@@ -233,7 +236,7 @@ body {
 .parrafo3 {
   background-color: cornsilk;
   width: 800px;
-  border: 50px solid green;
+  border: 15px solid #104110;
   padding: 50px;
   margin: auto;
   max-width: 1600px;
@@ -359,11 +362,6 @@ a:visited p {
 
 .piuno {
   transform: translate(10px, 20px); }
-
-.p1 {
-  animation-duration: 10s;
-  animation-name: slidein;
-  animation-iteration-count: initial; }
 
 @keyframes slidein {
   from {

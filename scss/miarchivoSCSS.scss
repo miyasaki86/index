@@ -88,11 +88,11 @@
     max-width: 1600px;
   }
   .table_th{
-    color: darkcyan;
+    color: rgb(173, 136, 35);
     font-family: Arial, Helvetica, sans-serif;
   }
   .table_td{
-    color: rgb(43, 0, 255);
+    color: rgb(13, 13, 14);
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .header_h1{
@@ -137,7 +137,7 @@
     
   }
   .pintoCuatro {
-    @include pinto(#c37c0c, center);
+    @include pinto(#c37c0d, center);
     text-transform: lowercase;
     font-size: 150px
   }
@@ -165,12 +165,14 @@
     font-family: "Times New Roman", Times, serif;
   }
  
-  
+  .color1{
+    color: brown;
+  }
  
   
   
   .parrafoDos {
-    color: rgb(53, 35, 248);
+    color: rgb(16, 16, 17);
     text-transform: initial;
     font-weight: normal;
     font-size: x-large;
@@ -264,7 +266,7 @@
   .parrafo3 {
     background-color: cornsilk;
     width: 800px;
-    border: 50px solid green;
+    border: 15px solid rgb(16, 65, 16);
     padding: 50px;
     margin: auto;
     max-width: 1600px;
@@ -432,11 +434,8 @@
   .piuno{
     transform: translate(10px, 20px);
   }
-  .p1 {
-    animation-duration: 10s;
-    animation-name: slidein;
-    animation-iteration-count: initial;
-  }
+  
+  
   @keyframes slidein {
     from {
       margin-left: 100%;
