@@ -141,8 +141,9 @@ table {
   border-color: #495057; }
 
 .parrafoUno {
-  color: #c37c0d, center;
-  font-size: 50px; }
+  color: #c37c0d;
+  font-size: 50px;
+  text-align: center; }
 
 .discoCero {
   color: #d74713;
