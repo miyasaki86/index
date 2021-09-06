@@ -344,23 +344,27 @@ span.a {
   grid-template-columns: 150%;
   gap: 2em; }
 
+iframe {
+  grid-area: iframe;
+  max-width: 1200px; }
+
 @media only screen and (max-width: 1700px) {
   .navegacion {
     display: grid;
     grid-column: auto;
-    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img"; } }
+    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img" "iframe"; } }
 
 @media only screen and (max-width: 1000px) {
   .navegacion {
     display: grid;
     grid-column: auto;
-    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img"; } }
+    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img" "iframe"; } }
 
 @media only screen and (max-width: 700px) {
   .navegacion {
     display: grid;
     grid-column: auto;
-    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img"; } }
+    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img" "iframe"; } }
 
 .gradiante1 {
   width: 1500px;
