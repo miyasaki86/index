@@ -244,9 +244,6 @@ body {
   width: 25%;
   height: 25%; }
 
-.punto1 {
-  color: #2e2c2c; }
-
 .parrafo3 {
   background-color: cornsilk;
   width: 800px;
@@ -371,9 +368,6 @@ iframe {
   height: 100px;
   transform: translate(50px, 25px);
   background-image: linear-gradient(55deg, #ce7d35); }
-
-a:visited {
-  color: aliceblue; }
 
 a:visited p {
   color: #131313; }
