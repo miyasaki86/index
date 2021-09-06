@@ -190,7 +190,8 @@
     display: flex;
     margin: 2em;
     color: #0a0c14;
-    border: rgb(4, 91, 62);
+    grid-area: navegacion;
+    max-width: 1700px;
   }
   /* menu de navegacion. */
   .navColor {
@@ -202,7 +203,7 @@
     background-color: #c37c0c;
     width: 98%;
     margin: auto;
-    border: 10px solid #c37c0c;
+    border: 15px solid #c37c0c;
     height: 50px;
     text-decoration: aliceblue;
     grid-area: navColor;
