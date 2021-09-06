@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-position: center;
     grid-area: header;
-    max-width: 1700px;
+    max-width: 1200px;
   }
   //operaciones//
   $color: #c37c0c;
@@ -39,6 +39,10 @@
     max-width: 1200px;
     font-size: 100px;
   }
+  img{
+    grid-area: img;
+    max-width: 1200px;
+  }
   section{
     display: flex;
     flex-direction: row;
@@ -50,10 +54,14 @@
   }
    h2 {
     font-family: "Arial";
-    color: chartreuse;
+    color: rgb(222, 172, 34);
   }
   aside{color: burlywood;
 
+  }
+  p{
+    grid-area: p;
+    max-width: 1200px;
   }
   .aside_h2{
     font-family: "Arial";
@@ -76,7 +84,7 @@
     border: 15px solid rgb(74, 235, 243);
     padding: 50px;
     margin: auto;
-    max-width: 2500px;
+    max-width: 1200px;
     background-image: url();
     grid-area: table;
     height: auto;
@@ -85,15 +93,19 @@
     grid: 200px;
     grid-column: initial;
     grid-area: table_tr;
-    max-width: 1600px;
+    max-width: 1200px;
   }
   .table_th{
     color: rgba(67, 48, 24, 0.372);
     font-family: Arial, Helvetica, sans-serif;
+    grid-area: table_th;
+    max-width: 1200px;
   }
   .table_td{
     color: rgb(13, 13, 14);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-area: table_td;
+    max-width: 1200px;
   }
   .header_h1{
     color: #050152;
@@ -191,7 +203,7 @@
     margin: 2em;
     color: #0a0c14;
     grid-area: navegacion;
-    max-width: 1700px;
+    max-width: 1200px;
   }
   /* menu de navegacion. */
   .navColor {
@@ -207,11 +219,11 @@
     height: 60px;
     text-decoration: aliceblue;
     grid-area: navColor;
-    max-width: 1700px;
+    max-width: 1200px;
   }
   .menu2{
     grid-area: menu2;
-    max-width: 1600px;
+    max-width: 1200px;
   }
   .navColor a {
     color: #0a0c14;
@@ -230,7 +242,7 @@
   
   .navegacion ul li {
     margin: 10px;
-    max-width: 1600px;
+    max-width: 1200px;
     grid-area: navegacion ul li;
   }
   
@@ -249,7 +261,7 @@
     margin: 0;
     overflow-x: hidden;
     grid-area: 
-    max-width 1600px;
+    max-width 1200px;
   }
   .imagen{width: 1550px;
   height: 850px;}
@@ -270,7 +282,7 @@
     border: 15px solid rgb(16, 65, 16);
     padding: 50px;
     margin: auto;
-    max-width: 1600px;
+    max-width: 1200px;
     grid-area: parrafo3;
   }
   .ul {
@@ -279,7 +291,7 @@
     border: 15px solid rgb(54, 25, 238);
     padding: 50px;
     margin: auto;
-    max-width: 1600px;
+    max-width: 1200px;
     grid-area: ul;
   }
  
@@ -290,7 +302,7 @@
     padding: 5px;
     border: 1px solid rgb(77, 197, 99);
     background-color: rgb(62, 153, 157);
-    max-width: 1600px;
+    max-width: 1200px;
     margin: auto;
     grid-area: span
   }
@@ -365,7 +377,7 @@
   }
 
   
-  @media only screen and (max-width: 1200px)
+  @media only screen and (max-width: 1700px)
    {
     .navegacion {
       display: grid;
@@ -378,8 +390,13 @@
         "parrafo3"
         "navColor"
         "navegacion"
-        "menu2"
-        "tr";
+        "a:visited"
+        "tr"
+        "table_th"
+        "table_td"
+        "table_tr"
+        "p"
+        "img";
     }
   }
   @media only screen and (max-width: 1000px)
@@ -395,8 +412,13 @@
       "parrafo3"
       "navColor"
       "navegacion"
-      "menu2"
-      "tr";
+      "a:visited"
+      "tr"
+      "table_th"
+      "table_td"
+      "table_tr"
+      "p"
+      "img";
     }
   }
   @media only screen and(max-width: 700px){
@@ -411,8 +433,13 @@
       "parrafo3"
       "navColor"
       "navegacion"
-      "menu2"
-      "tr";
+      "a:visited"
+      "tr"
+      "table_th"
+      "table_td"
+      "table_tr"
+      "p"
+      "img";
     }
   }
     

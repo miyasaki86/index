@@ -16,7 +16,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   grid-area: header;
-  max-width: 1700px; }
+  max-width: 1200px; }
 
 .header_div {
   display: flex;
@@ -35,6 +35,10 @@ header {
   max-width: 1200px;
   font-size: 100px; }
 
+img {
+  grid-area: img;
+  max-width: 1200px; }
+
 section {
   display: flex;
   flex-direction: row;
@@ -46,10 +50,14 @@ section {
 
 h2 {
   font-family: "Arial";
-  color: chartreuse; }
+  color: #deac22; }
 
 aside {
   color: burlywood; }
+
+p {
+  grid-area: p;
+  max-width: 1200px; }
 
 .aside_h2 {
   font-family: "Arial";
@@ -72,7 +80,7 @@ table {
   border: 15px solid #4aebf3;
   padding: 50px;
   margin: auto;
-  max-width: 2500px;
+  max-width: 1200px;
   background-image: url();
   grid-area: table;
   height: auto; }
@@ -81,15 +89,19 @@ table {
   grid: 200px;
   grid-column: initial;
   grid-area: table_tr;
-  max-width: 1600px; }
+  max-width: 1200px; }
 
 .table_th {
   color: rgba(67, 48, 24, 0.372);
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  grid-area: table_th;
+  max-width: 1200px; }
 
 .table_td {
   color: #0d0d0e;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  grid-area: table_td;
+  max-width: 1200px; }
 
 .header_h1 {
   color: #050152;
@@ -169,7 +181,7 @@ table {
   margin: 2em;
   color: #0a0c14;
   grid-area: navegacion;
-  max-width: 1700px; }
+  max-width: 1200px; }
 
 /* menu de navegacion. */
 .navColor {
@@ -185,11 +197,11 @@ table {
   height: 60px;
   text-decoration: aliceblue;
   grid-area: navColor;
-  max-width: 1700px; }
+  max-width: 1200px; }
 
 .menu2 {
   grid-area: menu2;
-  max-width: 1600px; }
+  max-width: 1200px; }
 
 .navColor a {
   color: #0a0c14;
@@ -206,7 +218,7 @@ table {
 
 .navegacion ul li {
   margin: 10px;
-  max-width: 1600px;
+  max-width: 1200px;
   grid-area: navegacion ul li; }
 
 .contenedor {
@@ -222,7 +234,7 @@ body {
   line-height: 1.4em;
   margin: 0;
   overflow-x: hidden;
-  grid-area: max-width 1600px; }
+  grid-area: max-width 1200px; }
 
 .imagen {
   width: 1550px;
@@ -241,7 +253,7 @@ body {
   border: 15px solid #104110;
   padding: 50px;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1200px;
   grid-area: parrafo3; }
 
 .ul {
@@ -250,7 +262,7 @@ body {
   border: 15px solid #3619ee;
   padding: 50px;
   margin: auto;
-  max-width: 1600px;
+  max-width: 1200px;
   grid-area: ul; }
 
 span.a {
@@ -260,7 +272,7 @@ span.a {
   padding: 5px;
   border: 1px solid #4dc563;
   background-color: #3e999d;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: auto;
   grid-area: span; }
 
@@ -332,23 +344,23 @@ span.a {
   grid-template-columns: 150%;
   gap: 2em; }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1700px) {
   .navegacion {
     display: grid;
     grid-column: auto;
-    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "menu2" "tr"; } }
+    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img"; } }
 
 @media only screen and (max-width: 1000px) {
   .navegacion {
     display: grid;
     grid-column: auto;
-    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "menu2" "tr"; } }
+    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img"; } }
 
 @media only screen and (max-width: 700px) {
   .navegacion {
     display: grid;
     grid-column: auto;
-    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "menu2" "tr"; } }
+    grid-template-areas: "header" "span a" "table" "ul" "parrafo3" "navColor" "navegacion" "a:visited" "tr" "table_th" "table_td" "table_tr" "p" "img"; } }
 
 .gradiante1 {
   width: 1500px;
