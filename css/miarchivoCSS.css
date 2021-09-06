@@ -348,7 +348,7 @@ iframe {
   grid-area: iframe;
   max-width: 1200px; }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1200px) {
   .navegacion {
     display: grid;
     grid-column: auto;
