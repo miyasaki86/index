@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-position: center;
     grid-area: header;
-    max-width: 1200px;
+    max-width: 1700px;
   }
   //operaciones//
   $color: #c37c0c;
@@ -138,7 +138,7 @@
   }
   .pintoCuatro {
     @include pinto(#c37c0d, center);
-    text-transform: lowercase;
+    text-transform:  arial;
     font-size: 150px
   }
   .pintoCinco {

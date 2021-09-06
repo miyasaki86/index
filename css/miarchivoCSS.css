@@ -16,7 +16,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   grid-area: header;
-  max-width: 1200px; }
+  max-width: 1700px; }
 
 .header_div {
   display: flex;
@@ -125,7 +125,7 @@ table {
 .pintoCuatro {
   color: #c37c0d;
   text-align: center;
-  text-transform: lowercase;
+  text-transform: arial;
   font-size: 150px; }
 
 .pintoCinco {
