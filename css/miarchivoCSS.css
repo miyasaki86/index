@@ -125,12 +125,12 @@ table {
 .pintoCuatro {
   color: #c37c0d;
   text-align: center;
-  text-transform: arial;
-  font-size: 150px; }
+  font-size: 100px; }
 
 .pintoCinco {
-  color: #32b0b0;
-  text-align: center; }
+  color: #c37c0d;
+  text-align: center;
+  font-size: 100px; }
 
 .boton-primario {
   background-color: #0077b6;
