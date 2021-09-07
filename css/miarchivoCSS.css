@@ -181,7 +181,8 @@ table {
   margin: 2em;
   color: #0a0c14;
   grid-area: navegacion;
-  max-width: 1200px; }
+  max-width: 1200px;
+  list-style: none; }
 
 /* menu de navegacion. */
 .navColor {
@@ -196,7 +197,8 @@ table {
   border: 15px solid #c37c0c;
   height: 60px;
   grid-area: navColor;
-  max-width: 1200px; }
+  max-width: 1200px;
+  list-style: none; }
 
 .menu2 {
   grid-area: menu2;
