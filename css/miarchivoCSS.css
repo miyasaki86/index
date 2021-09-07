@@ -403,8 +403,7 @@ ul {
   text-decoration: none;
   padding: 25px;
   display: block;
-  min-width: 450px;
-  height: auto; }
+  min-width: 450px; }
 
 #menu li > a:hover {
   color: #9c8f1e;
