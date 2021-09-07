@@ -398,15 +398,15 @@ ul {
   list-style: none; }
 
 #menu li > a {
-  background-color: grey;
+  background-color: #939c1e;
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 25px;
   display: block;
   min-width: 100px; }
 
 #menu li > a:hover {
-  color: black;
+  color: #9c8f1e;
   background-color: #eaeaea; }
 
 #menu > li {
