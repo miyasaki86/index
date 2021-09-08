@@ -468,10 +468,12 @@
 
   .imagen2{
     @include img (1800px, 1800px);
+    margin: 100px
    
   }
   .imagen3{
     @include img (1850px, 1800px);
+    margin: 100px;
     
   }
   .boton1{

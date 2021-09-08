@@ -374,11 +374,13 @@ a:visited p {
 
 .imagen2 {
   width: 1800px;
-  height: 1800px; }
+  height: 1800px;
+  margin: 100px; }
 
 .imagen3 {
   width: 1800px;
-  height: 1850px; }
+  height: 1850px;
+  margin: 100px; }
 
 .boton1 {
   margin-bottom: 100px;
