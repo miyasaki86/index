@@ -48,7 +48,9 @@ section {
 .section_p {
   color: #43381b;
   background-color: #a89a62;
-  justify-content: center; }
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
 
 h2 {
   font-family: "Arial";
