@@ -520,13 +520,11 @@
   }
   .btn-wsp{
     position:fixed;
-    width: 50px;
-    height:45px;
+    width:85px;
+    height:60px;
     line-height: 63px;
-    bottom:40px;
+    bottom:25px;
     right:25px;
-    background:#25d366;
-    color:#FFF;
     border-radius:50px;
     text-align:center;
     font-size:35px;
@@ -537,10 +535,10 @@
 .btn-wsp:hover{
     background: #20ba5a;
 }
-@media only screen and (min-width:320px) and (max-width:768px){
-  .btn-wsp{
-      width:63px;
-      height:63px;
-      line-height: 66px;
-}
+  @media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
 }
