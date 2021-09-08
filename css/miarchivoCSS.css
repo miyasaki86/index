@@ -399,8 +399,7 @@ a:visited p {
 .button {
   flex-direction: row;
   padding: 30px;
-  display: flex;
-  justify-items: center; }
+  justify-self: center; }
 
 ul {
   list-style: none; }
