@@ -382,7 +382,8 @@ a:visited p {
 
 .boton1 {
   margin-bottom: 100px;
-  color: aliceblue; }
+  color: aliceblue;
+  margin: auto; }
 
 .P2 {
   color: burlywood; }
@@ -394,7 +395,7 @@ a:visited p {
   background-image: url("https://www.queenonline.com/global/assets/modules/site/images/gallery/1973_002.jpg"); }
 
 .button {
-  position: relative;
+  position: absolute;
   left: 1000px; }
 
 ul {
