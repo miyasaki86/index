@@ -243,7 +243,8 @@ body {
 
 .imagen {
   width: 1550px;
-  height: 850px; }
+  height: 850px;
+  margin: center; }
 
 .imagencarrusel {
   width: 40%;
