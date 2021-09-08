@@ -272,8 +272,8 @@
   height: 850px;}
   
  .imagencarrusel{
-   width: 25%;
-   height: 25%;
+   width: 40%;
+   height: 35%;
  }
   
   
@@ -471,7 +471,7 @@
    
   }
   .imagen3{
-    @include img (1650px, 1800px);
+    @include img (1850px, 1800px);
     
   }
   .boton1{
