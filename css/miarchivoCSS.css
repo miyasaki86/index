@@ -385,7 +385,7 @@ a:visited p {
 .boton1 {
   margin-bottom: 100px;
   color: aliceblue;
-  margin: auto; }
+  margin: center; }
 
 .P2 {
   color: burlywood; }
@@ -398,7 +398,8 @@ a:visited p {
 
 .button {
   position: relative;
-  left: 1000px; }
+  left: 1000px;
+  margin: center; }
 
 ul {
   list-style: none; }
