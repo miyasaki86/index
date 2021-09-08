@@ -397,9 +397,10 @@ a:visited p {
   background-image: url("https://www.queenonline.com/global/assets/modules/site/images/gallery/1973_002.jpg"); }
 
 .button {
-  position: relative;
+  flex-direction: row;
   left: 1000px;
-  margin: center; }
+  margin: center;
+  justify-content: center; }
 
 ul {
   list-style: none; }
