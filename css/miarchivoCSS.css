@@ -400,7 +400,8 @@ a:visited p {
 .button {
   flex-direction: row;
   padding: 30px;
-  justify-self: center; }
+  justify-self: center;
+  margin: 190px; }
 
 ul {
   list-style: none; }
