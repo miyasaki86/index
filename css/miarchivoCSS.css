@@ -400,7 +400,8 @@ a:visited p {
 .titulo {
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: auto; }
+  margin: auto;
+  color: brown; }
 
 .button {
   padding: 30px;
