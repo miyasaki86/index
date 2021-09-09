@@ -397,6 +397,11 @@ a:visited p {
 .fondo_historia {
   background-image: url("https://www.queenonline.com/global/assets/modules/site/images/gallery/1973_002.jpg"); }
 
+.titulo {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto; }
+
 .button {
   padding: 30px;
   justify-self: center;
